@@ -1,0 +1,63 @@
+.timer {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tab {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: end;
+}
+
+.time-count {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1rem;
+  font-family: "Orbitron", system-ui;
+  font-size: 6em;
+  font-weight: 500;
+}
+
+button {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 1px solid #0c132d;
+  background-color: #0c132d;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 700px) {
+  .time-count {
+    font-size: 5.5em;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .time-count {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .time-count {
+    font-size: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .time-count {
+    font-size: 3.8em;
+  }
+}

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #f5cbd5, #c7ace0);
+  font-family: "Inria Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80vw;
+  height: 550px;
+  display: flex;
+  gap: 0.5rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.col-left,
+.col-right {
+  opacity: 0.9;
+}
+
+.col-left {
+  flex: 4;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 1;
+}
+
+.col-right {
+  flex: 3;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #f5eefb;
+  z-index: 0;
+}
+
+.row {
+  border-radius: 2rem;
+  gap: 0.5rem;
+  background-color: #f5eefb;
+}
+
+.up {
+  flex: 3;
+}
+
+.bottom {
+  flex: 2;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    /* background-color: #00ff40; */
+    width: 83vw;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .container {
+    /* background-color: #0011ff; */
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .container {
+    /* background-color: #ff7b00; */
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    /* background-color: #ff0095; */
+    width: 95vw;
+  }
+
+  .col-left {
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .container {
+    /* background-color: #c7ace0; */
+    flex-direction: column;
+    width: 75vw;
+    height: auto;  
+  }
+
+  body {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    /* background-color: #45097e; */
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    /* background-color: #7e0926; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    /* background-color: #097e47; */
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    /* background-color: #7e0957; */
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    /* background-color: #097e65; */
+  }
+}
