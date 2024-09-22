@@ -18,10 +18,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.time-text{
   letter-spacing: 1rem;
   font-family: "Orbitron", system-ui;
   font-size: 6em;
   font-weight: 500;
+  font-weight: bold;
+  background: linear-gradient(135deg,#C895C5, #c7ace0); /* Define the gradient colors */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  color: transparent;
 }
 
 button {
@@ -39,25 +46,25 @@ button {
 }
 
 @media only screen and (max-width: 700px) {
-  .time-count {
+  .time-text {
     font-size: 5.5em;
   }
 }
 
 @media only screen and (max-width: 660px) {
-  .time-count {
+  .time-text{
     font-size: 5em;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .time-count {
+  .time-text{
     font-size: 4.5em;
   }
 }
 
 @media only screen and (max-width: 445px) {
-  .time-count {
+  .time-text {
     font-size: 3.8em;
   }
 }

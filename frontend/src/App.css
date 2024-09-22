@@ -18,7 +18,7 @@ body {
   height: 550px;
   display: flex;
   gap: 0.5rem;
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 1rem;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .col-left {
   flex: 4;
-  border-radius: 2rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -38,7 +38,7 @@ body {
 
 .col-right {
   flex: 3;
-  border-radius: 2rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -47,7 +47,7 @@ body {
 }
 
 .row {
-  border-radius: 2rem;
+  border-radius: 10px;
   gap: 0.5rem;
   background-color: #f5eefb;
 }

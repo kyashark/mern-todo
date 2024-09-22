@@ -9,7 +9,7 @@ function Timer() {
         <button>Pause</button>
       </div>
       <div class="time-count">
-         45:00
+        <h1 className='time-text'>45:00</h1>
       </div>
     </div>
   )

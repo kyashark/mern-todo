@@ -52,18 +52,6 @@ function Task() {
         <input type="checkbox" className="checkbox"></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
     </div>
   );
 }

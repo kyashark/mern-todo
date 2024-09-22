@@ -70,7 +70,7 @@
     gap: 0.7rem;
   }
   .profile .image {
-    right: -78px;
+    right: -77px;
     /* width:35.6vw; */
     width: 306.016px;
   }
@@ -78,14 +78,19 @@
 
 @media only screen and (max-width: 700px) {
   .profile .image {
-    right: -78px;
-     width:46.37vw;
+    right: -75px;
+    width:43.72vw;
   }
 }
 
 @media only screen and (max-width: 660px) {
   .details .time {
     font-size: 4em;
+  }
+
+  .profile .image {
+    right: -72px;
+    width:43.72vw;
   }
 }
 
