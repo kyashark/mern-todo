@@ -1,21 +1,15 @@
 
 import './App.css';
-import Timer from './components/Timer';
-import Task from './components/Task';
-import Profile from './components/Profile';
+import Home from './pages/Home';
+import Signup from './pages/Signup';
 
 
 function App() {
   return (
-  
-      <div className='container'>
-        <div className='col-left'>
-          <div className='row up'><Timer/></div>
-          <div className='row bottom'><Profile/></div>
-        </div>
-        <div className='col-right'><Task/></div>
-      </div>
-  
+  <>
+  {/* <Home/> */}
+  <Signup/>
+  </>
   );
 }
 
