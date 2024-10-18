@@ -1,57 +1,36 @@
 import React from "react";
-import "./task.css";
+import taskStyle from "./Task.module.css";
 
 function Task() {
   return (
-    <div className="task">
-      <form className="add-task">
+    <div className={taskStyle.container}>
+      <form className={taskStyle.addTask}>
         <input type="text"></input>
         <button type="submit">Add</button>
       </form>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
+      <div className={taskStyle.taskList}>
+      <div className={taskStyle.task}>
+        <input type="checkbox" className={taskStyle.checkbox}></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor sit amet amet</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
+      <div className={taskStyle.task}>
+        <input type="checkbox" className={taskStyle.checkbox}></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
+      <div className={taskStyle.task}>
+        <input type="checkbox" className={taskStyle.checkbox}></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
+      <div className={taskStyle.task}>
+        <input type="checkbox" className={taskStyle.checkbox}></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
+      <div className={taskStyle.task}>
+        <input type="checkbox" className={taskStyle.checkbox}></input>
         <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
       </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
-      <div className="tasks">
-        <input type="checkbox" className="checkbox"></input>
-        <span>Lorem ipsum dolor</span>
-      </div>
+    
     </div>
   );
 }

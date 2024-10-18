@@ -13,14 +13,14 @@
   justify-content: end;
 }
 
-.time-count {
+.timeCounter {
   flex: 3;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.time-text{
+.timeTexts{
   letter-spacing: 1rem;
   font-family: "Orbitron", system-ui;
   font-size: 6em;
@@ -46,25 +46,25 @@ button {
 }
 
 @media only screen and (max-width: 700px) {
-  .time-text {
+  .timeTexts {
     font-size: 5.5em;
   }
 }
 
 @media only screen and (max-width: 660px) {
-  .time-text{
+  .timeTexts{
     font-size: 5em;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .time-text{
+  .timeTexts{
     font-size: 4.5em;
   }
 }
 
 @media only screen and (max-width: 445px) {
-  .time-text {
+  .timeTexts{
     font-size: 3.8em;
   }
 }

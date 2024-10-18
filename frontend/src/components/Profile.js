@@ -1,15 +1,15 @@
 import React from "react";
-import "./profile.css";
+import profileStyle from "./Profile.module.css";
 
 function Profile() {
   return (
-    <div className="profile">
-      <div className="details">
-        <a href="#"><p className="username">Hello Shakya</p></a>
-        <p className="date">Sunday May 19</p>
-        <p className="time">6.51 PM</p>
+    <div className={profileStyle.profile}>
+      <div className={profileStyle.details}>
+        <a href="#"><p className={profileStyle.username}>Hello Shakya</p></a>
+        <p className={profileStyle.date}>Sunday May 19</p>
+        <p className={profileStyle.time}>6.51 PM</p>
       </div>
-      <div className="image">
+      <div className={profileStyle.image}>
         <img src="./boy.png" />
       </div>
     </div>

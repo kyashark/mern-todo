@@ -1,15 +1,15 @@
 import React from 'react'
-import "./timer.css"
+import timerStyle from "./Timer.module.css"
 
 function Timer() {
   return (
-    <div className="timer">
-      <div className ="tab">
-        <button>Start</button>
-        <button>Pause</button>
+    <div className={timerStyle.timer}>
+        <div className ={timerStyle.tab}>
+        <button className={timerStyle}>Start</button>
+        <button className={timerStyle}>Pause</button>
       </div>
-      <div class="time-count">
-        <h1 className='time-text'>45:00</h1>
+      <div className={timerStyle.timeCounter}>
+        <h1 className={timerStyle.timeTexts}>45:00</h1>
       </div>
     </div>
   )
