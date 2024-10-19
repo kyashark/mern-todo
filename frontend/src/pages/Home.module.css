@@ -2,7 +2,7 @@
   width: 80vw;
   height: 550px;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   margin: 1rem;
   border-radius: 1rem;
 }

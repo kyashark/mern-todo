@@ -1,17 +1,28 @@
 .timer {
-  margin: 30px;
+  margin:1.4rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .tab {
-  flex: 1;
   display: flex;
   gap: 0.5rem;
   align-items: center;
   justify-content: end;
 }
+
+.btn {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 1px solid #0c132d;
+  background-color: #0c132d;
+  color: aliceblue;
+  font-weight: 700;
+  width: 70px;
+}
+
+
 
 .timeCounter {
   flex: 3;
@@ -23,7 +34,7 @@
 .timeTexts{
   letter-spacing: 1rem;
   font-family: "Orbitron", system-ui;
-  font-size: 6em;
+  font-size: 6.25rem;
   font-weight: 500;
   font-weight: bold;
   background: linear-gradient(135deg,#C895C5, #c7ace0); /* Define the gradient colors */
@@ -31,40 +42,36 @@
   color: transparent;
 }
 
-button {
-  padding: 0.4rem;
-  border-radius: 0.3rem;
-  border: 1px solid #0c132d;
-  background-color: #0c132d;
-  color: aliceblue;
-  font-weight: 700;
-}
+
 
 /* Responsive */
 
-@media only screen and (max-width: 1280px) {
-}
+@media only screen and (max-width: 860px) {
 
+}
 @media only screen and (max-width: 700px) {
-  .timeTexts {
-    font-size: 5.5em;
-  }
+
 }
 
 @media only screen and (max-width: 660px) {
-  .timeTexts{
-    font-size: 5em;
-  }
+
 }
+
 
 @media only screen and (max-width: 600px) {
   .timeTexts{
-    font-size: 4.5em;
+    font-size: 4.7rem;
+    letter-spacing: 0.8rem;
   }
+  .btn {
+    padding: 0.25rem;
+    width: 60px;
+  }
+  
 }
 
 @media only screen and (max-width: 445px) {
   .timeTexts{
-    font-size: 3.8em;
+    font-size: 4rem; 
   }
 }

@@ -1,9 +1,8 @@
 .container {
-  margin: 30px 55px;
+  margin:1.4rem 3.8rem;
   overflow: auto;
   scrollbar-color: #0c132d #e5dcee;
   scrollbar-width: thin;
-  padding-right: 15px;
 }
 
 .addTask {
@@ -42,7 +41,7 @@
   gap: 0.5rem;
   padding-top: 0.3rem;
   align-items: center;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .checkbox {
@@ -70,3 +69,51 @@
   transform: rotate(45deg);
 }
 
+
+@media only screen and (max-width: 1180px) {
+  .container {
+    margin: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .container{
+    margin: 30px 35px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container{
+    margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .container {
+    margin: 30px 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    margin: 30px 45px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    margin: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .container {
+    margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 30px 20px;
+  }
+}

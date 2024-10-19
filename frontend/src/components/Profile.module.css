@@ -1,5 +1,5 @@
 .profile {
-  margin: 30px;
+  margin: 2rem;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -17,7 +17,7 @@
 }
 
 .details .username {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.2em;
   margin-bottom: 0.8rem;
@@ -25,12 +25,12 @@
 }
 
 .details .date {
-  font-size: 2.2em;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 
 .details .time {
-  font-size: 4.2em;
+  font-size: 4.2rem;
   font-weight: 600;
 }
 
@@ -39,7 +39,7 @@
   height: auto; /* Let height auto-adjust to maintain aspect ratio */
   position: absolute;
   right: -120px; /* Align to the right */
-  bottom: -34px;
+  bottom: -35.5px;
 }
 
 .image img {
@@ -56,21 +56,12 @@
   }
 }
 
-@media only screen and (max-width: 1180px) {
-}
-
-@media only screen and (max-width: 1020px) {
-}
-
-@media only screen and (max-width: 960px) {
-}
-
 @media only screen and (max-width: 860px) {
   .profile .details {
     gap: 0.7rem;
   }
   .profile .image {
-    right: -77px;
+    right: -80px;
     /* width:35.6vw; */
     width: 306.016px;
   }
@@ -78,14 +69,14 @@
 
 @media only screen and (max-width: 700px) {
   .profile .image {
-    right: -75px;
+    right: -78px;
     width:43.72vw;
   }
 }
 
 @media only screen and (max-width: 660px) {
   .details .time {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   .profile .image {
@@ -105,7 +96,7 @@
     gap: 0.5rem;
   }
   .details .username {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .profile .image {
@@ -113,10 +104,10 @@
   }
 
   .details .date {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .details .time {
-    font-size: 3.5em;
+    font-size: 3.5rem;
   }
 }
