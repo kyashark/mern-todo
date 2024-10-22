@@ -12,7 +12,6 @@
   background-color: var(--background-color);
   border-radius: 10px;
   font-size: 1rem;
-
 }
 
 .container h2{
@@ -118,4 +117,36 @@
 .creatAccount p a {
   text-decoration: none;
   color:var(--link-color);
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 425px) {
+  .container{
+    width:360px;
+    height: 430px;
+  }
+
+  .container h2{
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    color: var(--text-color)
+  }
+  .errorText{
+    font-size: 0.7rem;
+  
+  }
+  
+  .forgetText{
+    font-size: 0.7rem;
+  
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container{
+    width:350px;
+    height: 430px;
+  }
 }
