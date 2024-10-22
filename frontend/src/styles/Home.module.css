@@ -1,3 +1,5 @@
+@import  './color.css';
+
 .container {
   width: 80vw;
   height: 550px;
@@ -27,21 +29,21 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background-color: #f5eefb;
+  background-color: var(--background-color);
   z-index: 0;
 }
 
 .up {
   border-radius: 10px;
   gap: 0.5rem;
-  background-color: #f5eefb;
+  background-color:var(--background-color);
   flex: 3;
 }
 
 .bottom {
   border-radius: 10px;
   gap: 0.5rem;
-  background-color: #f5eefb;
+  background-color: var(--background-color);
   flex: 2;
 }
 

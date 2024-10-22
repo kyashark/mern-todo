@@ -1,3 +1,5 @@
+@import  './color.css';
+
 .profile {
   margin: 2rem;
   display: flex;
@@ -21,7 +23,7 @@
   font-weight: 600;
   letter-spacing: 0.2em;
   margin-bottom: 0.8rem;
-  color: #353b85;
+  color:var(--link-color);
 }
 
 .details .date {
@@ -70,7 +72,7 @@
 @media only screen and (max-width: 700px) {
   .profile .image {
     right: -78px;
-    width:43.72vw;
+    width: 43.72vw;
   }
 }
 
@@ -81,7 +83,7 @@
 
   .profile .image {
     right: -72px;
-    width:43.72vw;
+    width: 43.72vw;
   }
 }
 

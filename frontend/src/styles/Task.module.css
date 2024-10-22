@@ -1,7 +1,9 @@
+@import  './color.css';
+
 .container {
   margin:1.4rem 3.8rem;
   overflow: auto;
-  scrollbar-color: #0c132d #e5dcee;
+  scrollbar-color:var(--btn-background) var(--btn-text);
   scrollbar-width: thin;
 }
 
@@ -16,17 +18,21 @@
   flex: 5;
   padding: 0.4rem;
   border-radius: 0.3rem;
-  border: 1px solid #0c132d;
+  border: 1px solid var(--input-border);
 }
 
 .addTask button {
   flex: 2;
   padding: 0.4rem;
   border-radius: 0.3rem;
-  border: 1px solid #0c132d;
-  background-color: #0c132d;
-  color: aliceblue;
+  border: 1px solid var(--btn-background);
+  background-color: var(--btn-background);
+  color: var(--btn-text);
   font-weight: 700;
+}
+
+.addTask button:hover{
+  background-color: var(--btn-hover);
 }
 
 .taskList {
@@ -50,7 +56,7 @@
   appearance: none;
   width: 18px;
   height: 18px;
-  border: 1px solid #0c132db7;
+  border: 1px solid var(--input-border);
   border-radius: 4px;
   cursor: pointer;
   position: relative;
@@ -64,7 +70,7 @@
   left: 5px;
   width: 4px;
   height: 10px;
-  border: 1px solid #0c132db7;
+  border: 1px solid var(--input-border);
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }

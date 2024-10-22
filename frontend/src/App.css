@@ -1,11 +1,14 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
   
   body {
-    background: linear-gradient(135deg, #f5cbd5, #c7ace0);
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
     font-family: "Inria Sans", sans-serif;
     display: flex;
     align-items: center;

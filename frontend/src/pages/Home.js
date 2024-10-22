@@ -1,7 +1,7 @@
 import Timer from '../components/Timer';
 import Task from '../components/Task';
 import Profile from '../components/Profile';
-import homeStyle from './Home.module.css';
+import homeStyle from '../styles/Home.module.css';
 
 function Home(){
         return (

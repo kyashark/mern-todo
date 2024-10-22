@@ -1,3 +1,5 @@
+@import  './color.css';
+
 .timer {
   margin:1.4rem 2rem;
   display: flex;
@@ -15,9 +17,9 @@
 .btn {
   padding: 0.4rem;
   border-radius: 0.3rem;
-  border: 1px solid #0c132d;
-  background-color: #0c132d;
-  color: aliceblue;
+  border: 1px solid var(--btn-background);
+  background-color: var(--btn-background);
+  color: var(--btn-text);
   font-weight: 700;
   width: 70px;
 }
@@ -37,7 +39,7 @@
   font-size: 6.25rem;
   font-weight: 500;
   font-weight: bold;
-  background: linear-gradient(135deg,#C895C5, #c7ace0); /* Define the gradient colors */
+  background: var(--text-gradient); /* Define the gradient colors */
   -webkit-background-clip: text; /* Clip the background to the text */
   color: transparent;
 }
@@ -45,18 +47,6 @@
 
 
 /* Responsive */
-
-@media only screen and (max-width: 860px) {
-
-}
-@media only screen and (max-width: 700px) {
-
-}
-
-@media only screen and (max-width: 660px) {
-
-}
-
 
 @media only screen and (max-width: 600px) {
   .timeTexts{
