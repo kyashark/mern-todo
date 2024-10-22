@@ -1,57 +1,57 @@
 import React from "react";
-import loginStyle from "../styles/Signup.module.css";
+import signupStyle from "../styles/Login.module.css";
 
 const Signup = () => {
   return (
     <div>
-      <div className={loginStyle.container}>
-        <h2 className={loginStyle.topic}>Sing Up</h2>
-        <form id="signupForm" action="#" className={loginStyle.signupForm}>
-          <div className={loginStyle.details}>
-            <div className={loginStyle.field}>
+      <div className={signupStyle.container}>
+        <h2 className={signupStyle.topic}>Sing Up</h2>
+        <form id="signupForm" action="#" className={signupStyle.signupForm}>
+          <div className={signupStyle.details}>
+            <div className={signupStyle.field}>
               <input
                 type="text"
                 id="username"
-                className={loginStyle.inputFields}
+                className={signupStyle.inputFields}
                 placeholder="Username"
               />
-              {/* <p className={loginStyle.errorText}>Username is empty</p> */}
+              {/* <p className={signupStyle.errorText}>Username is empty</p> */}
             </div>
-            <div className={loginStyle.field}>
+            <div className={signupStyle.field}>
               <input
                 type="text"
                 id="email"
-                className={loginStyle.inputFields}
+                className={signupStyle.inputFields}
                 placeholder="Email"
               />
-              <p className={loginStyle.errorText}>Username is empty</p>
+              <p className={signupStyle.errorText}>Username is empty</p>
             </div>
-            <div className={loginStyle.field}>
+            <div className={signupStyle.field}>
               <input
                 type="password"
                 id="password"
-                className={loginStyle.inputFields}
+                className={signupStyle.inputFields}
                 placeholder="Password"
               />
-              {/* <p className={loginStyle.errorText}>Username is empty</p> */}
+              {/* <p className={signupStyle.errorText}>Username is empty</p> */}
             </div>
-            <div className={loginStyle.field}>
+            <div className={signupStyle.field}>
               <input
                 type="password"
                 id="confirm-password"
-                className={loginStyle.inputFields}
+                className={signupStyle.inputFields}
                 placeholder="Confirm Password"
               />
-              {/* <p className={loginStyle.errorText}>Username is empty</p> */}
+              {/* <p className={signupStyle.errorText}>Username is empty</p> */}
             </div>
           </div>
-          <div className={loginStyle.creatAccount}>
+          <div className={signupStyle.creatAccount}>
             <input
               type="submit"
-              className={loginStyle.submitbtn}
+              className={signupStyle.submitbtn}
               value="Create Account"
             />
-            <p className={loginStyle.haveAccount}>
+            <p className={signupStyle.haveAccount}>
               Already have a account? <a href="#">Login</a>
             </p>
           </div>
