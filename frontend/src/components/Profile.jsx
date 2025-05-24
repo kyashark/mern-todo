@@ -12,7 +12,7 @@ const Profile = () => {
           <p className={ProfileStyle.time}>6.51 PM</p>
         </div>
         <div className={ProfileStyle.image}>
-          <img src="./boy.png" />
+          <img src="./logo.png" />
         </div>
       </div>
     </>

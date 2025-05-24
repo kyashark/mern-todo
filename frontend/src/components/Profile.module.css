@@ -35,18 +35,28 @@
   font-weight: 600;
 }
 
+/* .profile .image {
+  width: 26vw; 
+  height: auto; 
+  position: absolute;
+  right: -120px; 
+  bottom: -35.5px;
+} */
+
 .profile .image {
-  width: 26vw; /* Adjust width based on viewport */
+  width: 27vw; /* Adjust width based on viewport */
   height: auto; /* Let height auto-adjust to maintain aspect ratio */
   position: absolute;
-  right: -120px; /* Align to the right */
-  bottom: -35.5px;
+  right: -100px; /* Align to the right */
+  bottom: -40px;
+  /* background-color: aqua; */
 }
 
 .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-bottom: -20px;
 }
 
 /* Responsive Profile Details */
@@ -54,7 +64,7 @@
 @media only screen and (max-width: 1280px) {
   .profile .image {
     width: 333.578px;
-  }
+  } 
 }
 
 @media only screen and (max-width: 860px) {
