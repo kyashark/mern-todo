@@ -1,0 +1,125 @@
+
+.container {
+  margin:1.4rem 3.8rem;
+  overflow: auto;
+  scrollbar-color:var(--btn-background) var(--btn-text);
+  scrollbar-width: thin;
+}
+
+.addTask {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTask input {
+  flex: 5;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--input-border);
+}
+
+.addTask button {
+  flex: 2;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--btn-background);
+  background-color: var(--btn-background);
+  color: var(--btn-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.addTask button:hover{
+  background-color: var(--btn-hover);
+}
+
+.taskList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.3rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.checkbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 4px;
+  height: 10px;
+  border: 1px solid var(--input-border);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+@media only screen and (max-width: 1180px) {
+  .container {
+    margin: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .container{
+    margin: 30px 35px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container{
+    margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .container {
+    margin: 30px 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    margin: 30px 45px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    margin: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .container {
+    margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 30px 20px;
+  }
+}
